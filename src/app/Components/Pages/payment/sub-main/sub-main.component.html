@@ -5,30 +5,40 @@
 
 <div class="relative top-[110px] ml-[92px]">
     <p class="font-bold font-monster  tracking-wider text-[20px] gap-2 mb-3 -mt-4">
-        STEP 2: UPLOAD KYC DOCUMENTS
+        STEP 3: Payment Method
     </p>
     <div class=" grid grid-cols-2 mt-10 ">
+        <div class="flex flex-col font-monster">
+            <label class="text-[16px] font-monster font-medium">Payment Method</label>
+            <select value="Field" class="bg-gray-100 rounded w-[360px] font-monster  h-[40px] mt-2 font-medium mr-2">
 
-
-<!-- 1 st block -->
-        <div class="flex flex-row items-center justify-between w-[425px]">
-           
-            <div class="flex flex-col">
-                <label class="text-[16px] font-monster font-bold">AADHAAR CARD</label>
-                <span class="text-[14px] font-monster w-[340px]">Lorem ipsum dolor sit amet consectetur. Sed rulla vel
-                    ultrices.</span>
-            </div>
-           
+                <option name="select" >Debit/Credit card</option>
+               
+            </select>
         </div>
-
-
-
+        <div class="flex flex-col -ml-20 ">
+            <label class="text-[16px] font-monster font-medium">Card Number</label>
+            <input type="number" class=" bg-gray-100 rounded w-[360px] h-[40px] mt-2 p-2  placeholder:text-black placeholder:font-monster placeholder:font-medium" placeholder="1234 1234 1234">
+        </div>
+        <div class="flex flex-col mt-5">
+            <label class="text-[16px] font-monster font-medium ">CVV</label>
+            <input type="password" class=" bg-gray-100 rounded w-[360px] h-[40px] mt-2 p-2 placeholder:text-black placeholder:font-monster placeholder:font-medium" placeholder="***">
+            
+        </div>
+        <div class="flex flex-col mt-5 font-monster -ml-20">
+            <label class="text-[16px] font-monster font-medium">Expiry Date</label>
+            <input type="text" class=" bg-gray-100 rounded w-[360px] h-[40px] mt-2 p-2  placeholder:text-black placeholder:font-monster placeholder:font-medium" placeholder="12/18">
+        </div>
+        <div class="flex flex-col mt-5">
+            <label class="text-[16px] font-monster font-medium">Billing Address</label>
+            <input type="text" class=" bg-gray-100 rounded w-[360px] h-[40px] mt-2 p-2  placeholder:text-black placeholder:font-monster placeholder:font-semibold placeholder:text-[12px]" placeholder="Aranya, Sector-119, Noida, Uttar Pradesh, IN">
+        </div>
     </div>
 
 
 
     <!-- check box -->
-    <div class="gadiv-1 mt-3 flex items-center relative top-[100px]">
+    <div class="gadiv-1 mt-3 flex items-center relative top-[30px]">
         <div class="inline-flex items-center h-4 w-[418px]">
             <label class="relative flex items-center p-3 rounded cursor-pointer h-4 w-4 -ml-1 mt-1" htmlFor="blue">
                 <input type="checkbox"
@@ -44,29 +54,25 @@
                     </svg>
                 </span>
             </label>
-            <div class="flex">
-
-                <label class="gap-2 font-monster font-medium w-[800px] text-[14px]">
-                    I authorize the platform to verify the uploaded 
-                    <span class="text-[#0290AA] font-monster font-medium">
-                        <a href="#" class="text-[14px]">
-                            Kyc Documents
-                        </a>
-                        
-                    </span>
-                    .
-                </label>
-            </div>
+             <label class="gap-2 font-monster font-medium">
+            Save the Card Details for 
+            <span class="text-[#0290AA] font-monster font-medium">
+                <a href="#">
+                    Future Payments
+                </a>
+            </span>
+            .
+        </label>
         </div>
     </div>
-    <div class="-ml-8 relative top-32">
+    <div class="-ml-8 relative mt-10" >
         <button class=" bg-[#0290AA] font-monster font-semibold h-[45px] w-[205px] rounded m-7  text-white">
             Next
         </button>
-
+    
         <button class="text-[#0290AA] font-monster h-[45px] w-[205px] bg-gray-200 rounded font-semibold">
             Cancel
         </button>
-
+    
     </div>
 </div>
