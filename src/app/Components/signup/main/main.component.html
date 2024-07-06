@@ -1,0 +1,78 @@
+<!-- main blue color- [#0290AA] -->
+
+
+
+<div class="h-[416px] w-[400px] ">
+    <div class="mb-9">
+        <h1 class="font-bold text-[32px] font-monster tracking-widest ">WELCOME</h1>
+        <div>
+            <p class="text-[14px] font-monster font-medium">
+                Lorem ipsum dolor sit amet consectetur. Sed rulla vel ultrices.
+            </p>
+        </div>
+    </div>
+    <div>
+        <h5 class="font-monster text-[14px] font-medium">Email</h5>
+        <input type="text" placeholder="abc@gmail.com"
+            class="placeholder:p-1 rounded bg-gray-100 text-[16px] h-[45px] w-[369px] justify-center placeholder:text-black placeholder:font-semibold placeholder:font-monster placeholder:text-opacity-95 p-3 ">
+        <div class="gadiv-1 mt-3 flex items-center ">
+
+            <!-- check box -->
+
+            <div class="inline-flex items-center h-4 w-[418px]">
+                <label class="relative flex items-center p-3 rounded cursor-pointer h-4 w-4 -ml-1 mt-1" htmlFor="blue">
+                    <input type="checkbox"
+                        class="before:content['']  peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border  transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-gray-200 before:opacity-0 before:transition-opacity checked:border-gray-100   hover:before:opacity-10"
+                        id="term1" checked />
+                    <span
+                        class="absolute text-[#0290AA] h-5 w-5 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"
+                            stroke="currentColor" stroke-width="1">
+                            <path fill-rule="evenodd"
+                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </span>
+                </label>
+
+
+                <label for="term1" class="gap-2 ">
+                    I am accepting <span class="text-[#0290AA]">
+                        <a href="#">
+                            Terms
+                        </a>
+                    </span> & <span class="text-[#0290AA]">
+                        <a href="">
+                            Conditions
+                        </a>
+                    </span>
+                </label>
+            </div>
+
+
+
+            <!-- <input type="checkbox" class="h-4 w-4 bg-gray-200 border-none a checked:bg-none rounded cursor-pointer "
+                id="term1" /> -->
+        </div>
+    </div>
+
+    <div class="w-[293px] flex flex-col items-center justify-center mt-6 ml-8">
+        <button
+            class="text-white bg-[#0290AA] w-[293px] h-[45px] text-[14px] rounded flex items-center justify-center mt-4 hover:opacity-[90%] font-monster font-semibold "
+            [routerLink]="'/company-details'">
+            Get Started
+        </button>
+
+        <div class=" w-[218] h-[34px] text-[14px] flex flex-col mt-7 justify-center items-center">
+            <p class="flex flex-col justify-center font-medium font-monster items-center text-[18px]">
+                Already have an account?
+                <span>
+                    <a href="#" class="text-[#0290AA] cursor-pointer font-bold font-monster text-[18px]">
+                        Login
+                    </a>
+                </span>
+            </p>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,79 @@
+<div class="relative top-[60px] ml-[640px]">
+    <app-step1></app-step1>
+</div>
+
+
+<div class="relative top-[110px] ml-[92px]">
+    <p class="font-bold font-monster  tracking-wider text-[20px] gap-2 mb-3 -mt-4">
+        Step 1: Company Details
+    </p>
+    <div class=" grid grid-cols-2 mt-10 ">
+        <div class="flex flex-col font-monster">
+            <label class="text-[16px] font-monster font-medium">Company Name</label>
+            <input type="text" class=" bg-gray-100 rounded w-[360px] h-[40px] mt-2">
+        </div>
+        <div class="flex flex-col -ml-20 ">
+            <label class="text-[16px] font-monster font-medium">No. of Employees</label>
+            <input type="text" class=" bg-gray-100 rounded w-[360px] h-[40px] mt-2">
+        </div>
+        <div class="flex flex-col mt-5">
+            <label class="text-[16px] font-monster font-medium ">Field/Sector</label>
+            <!-- <input type="text" class=" bg-gray-100 rounded w-[300px] h-[40px] mt-2"> -->
+            <select value="Field" class="bg-gray-100 rounded w-[360px] font-monster  h-[40px] mt-2 font-medium mr-2">
+
+                <option name="select">Select Field or Sector</option>
+                <option name="Engineering">Engineering</option>
+                <option name="Finance">Finance</option>
+                <option name="Hospital">Hospital/Medical</option>
+            </select>
+        </div>
+        <div class="flex flex-col mt-5 font-monster -ml-20">
+            <label class="text-[16px] font-monster font-medium">Department</label>
+            <input type="text" class=" bg-gray-100 rounded w-[360px] h-[40px] mt-2">
+        </div>
+        <div class="flex flex-col mt-5">
+            <label class="text-[16px] font-monster font-medium">Location</label>
+            <input type="text" class=" bg-gray-100 rounded w-[360px] h-[40px] mt-2">
+        </div>
+    </div>
+
+
+
+    <!-- check box -->
+    <div class="gadiv-1 mt-3 flex items-center ">
+        <div class="inline-flex items-center h-4 w-[418px]">
+            <label class="relative flex items-center p-3 rounded cursor-pointer h-4 w-4 -ml-1 mt-1" htmlFor="blue">
+                <input type="checkbox"
+                    class="before:content['']  peer relative h-5 w-5 cursor-pointer appearance-none rounded-md border  transition-all before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-gray-200 before:opacity-0 before:transition-opacity checked:border-gray-100   hover:before:opacity-10"
+                    id="term1" checked />
+                <span
+                    class="absolute text-[#0290AA] h-5 w-5 transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"
+                        stroke="currentColor" stroke-width="1">
+                        <path fill-rule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </span>
+            </label>
+             <label class="gap-2 font-monster font-medium">
+            I agree to subscribe your
+            <span class="text-[#0290AA] font-monster font-medium">
+                <a href="#">
+                    Newsletter
+                </a>
+            </span>
+        </label>
+        </div>
+    </div>
+    <div class="-ml-5" >
+        <button class=" bg-[#0290AA] font-monster font-semibold h-[45px] w-[205px] rounded m-7  text-white">
+            Next
+        </button>
+    
+        <button class="text-[#0290AA] font-monster h-[45px] w-[205px] bg-gray-200 rounded font-semibold">
+            Cancel
+        </button>
+    
+    </div>
+</div>
