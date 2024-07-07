@@ -5,6 +5,7 @@ import { CompanydetComponent } from './Components/Pages/companydet/companydet.co
 import { KycComponent } from './Components/Pages/kyc/kyc.component';
 import { PaymentComponent } from './Components/Pages/payment/payment.component';
 import { SubscriptionComponent } from './Components/Pages/subscription/subscription.component';
+import { Subs2Component } from './Components/Pages/subs2/subs2.component';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,8 @@ import { SubscriptionComponent } from './Components/Pages/subscription/subscript
     CompanydetComponent,
     KycComponent,
     PaymentComponent,
-    SubscriptionComponent
+    SubscriptionComponent,
+    Subs2Component
   ],
   templateUrl: './app.component.html',
   styles:  []
